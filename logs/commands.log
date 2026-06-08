@@ -1,0 +1,6 @@
+{"timestamp":"2026-06-03T11:06:54.652Z","action":"new","sessionKey":"agent:main:main","senderId":"unknown","source":"webchat"}
+{"timestamp":"2026-06-03T11:09:33.318Z","action":"new","sessionKey":"agent:main:dashboard:c5ca2388-7bc5-45a6-a422-f0f6ea8e6c51","senderId":"unknown","source":"webchat"}
+{"timestamp":"2026-06-04T02:59:18.067Z","action":"new","sessionKey":"agent:main:main","senderId":"unknown","source":"webchat"}
+{"timestamp":"2026-06-04T03:13:17.289Z","action":"new","sessionKey":"agent:main:dashboard:9586f2f8-333a-4633-9fdf-325a4c4b3b42","senderId":"unknown","source":"webchat"}
+{"timestamp":"2026-06-04T09:03:54.378Z","action":"new","sessionKey":"agent:main:telegram:direct:8017768070","senderId":"unknown","source":"webchat"}
+{"timestamp":"2026-06-05T07:24:55.752Z","action":"new","sessionKey":"agent:main:telegram:direct:8017768070","senderId":"unknown","source":"webchat"}

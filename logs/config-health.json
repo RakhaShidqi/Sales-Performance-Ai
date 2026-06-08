@@ -1,0 +1,37 @@
+{
+  "entries": {
+    "C:\\Users\\rakha.shidqi\\.openclaw\\openclaw.json": {
+      "lastKnownGood": {
+        "hash": "db91446864385caa826d734bc3b9a30f61d25aab17a0d3599d460412586c9cc5",
+        "bytes": 2832,
+        "mtimeMs": 1780656624198.0344,
+        "ctimeMs": 1780656624198.0344,
+        "dev": "984017010",
+        "ino": "22236523160702216",
+        "mode": 438,
+        "nlink": 1,
+        "uid": 0,
+        "gid": 0,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-06-08T02:27:12.098Z"
+      },
+      "lastObservedSuspiciousSignature": null,
+      "lastPromotedGood": {
+        "hash": "db91446864385caa826d734bc3b9a30f61d25aab17a0d3599d460412586c9cc5",
+        "bytes": 2832,
+        "mtimeMs": 1780656624198.0344,
+        "ctimeMs": 1780656624198.0344,
+        "dev": "984017010",
+        "ino": "22236523160702216",
+        "mode": 33206,
+        "nlink": 1,
+        "uid": 0,
+        "gid": 0,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-06-08T02:26:23.510Z"
+      }
+    }
+  }
+}

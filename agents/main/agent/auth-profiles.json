@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "profiles": {
+    "anthropic:claude-cli": {
+      "type": "oauth",
+      "provider": "claude-cli",
+      "access": "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",
+      "refresh": "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",
+      "expires": 1780671000761
+    }
+  }
+}
