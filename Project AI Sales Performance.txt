@@ -1,0 +1,15 @@
+Project AI Sales Performance
+
+Untuk mengisi persentase minimum ACH, Jumlah achievement sales / banyaknya sales. pada YTD%
+
+1. klo user nanya perform ,output default datanya dari YTD,
+kalo spesifik per quartal tampilkan data achievement perquartal
+kalo spesifik per month tampilkan data per month.
+
+2. Join date sebagai pendukung atau pertimbangan sales perform atau enggak tapi dibuatkan notes sales ini baru join sesuai join date.
+
+3. VS GAP ,klo sales nya udah jualan misalnya 1M target nya 300 juta, itu jika quartal selanjutnya dia gk achievement tabungan itu masih bisa digunakan dengan catatan ,tabungannya itu minimumnya 100% dari target YTD.
+
+4. misalnya user nanya sales performace atau enggak, all datanya dimunculkan semua, tetapi nanti untuk pertimbangan dibuat di notes permasing masing sales.
+
+5. Untuk Update data per 2 jam sekali, 8 pagi , 10 pagi, 12 siang, 14 siang , 16 sore dan 18 sore.

@@ -1,0 +1,292 @@
+GET
+# ========================================
+# 1.Cek API Health
+# ========================================
+/ = Mengecek API aktif atau tidak
+==========================================
+
+# ===========================================================
+# 2.SALES Performance
+# ===========================================================
+#Using Region Commercial + Metric
+/commercial/sales-performance = Mengecek Sales performance region All Commercial (Default metric=ytd)
+/commercial/sales-performance/q1 = Mengecek Sales performance region All Commercial q1
+/commercial/sales-performance/q2 = Mengecek Sales performance region All Commercial q2
+/commercial/sales-performance/q3 = Mengecek Sales performance region All Commercial q3
+/commercial/sales-performance/q4 = Mengecek Sales performance region All Commercial q4
+
+#Using Region Commercial + Metric + SMB
+/commercial/sales-performance/ytd?smb=true = Mengecek Sales Performance region commercial division SMB ytd
+/commercial/sales-performance/q1?smb=true = Mengecek Sales Performance region commercial division SMB q1
+/commercial/sales-performance/q2?smb=true = Mengecek Sales Performance region commercial division SMB q2
+/commercial/sales-performance/q3?smb=true = Mengecek Sales Performance region commercial division SMB q3
+/commercial/sales-performance/q4?smb=true = Mengecek Sales Performance region commercial division SMB q4
+
+#Using Region Commercial + Metric + SMB + Head Sales
+/commercial/sales-performance/ytd?smb=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division SMB ytd
+/commercial/sales-performance/q1?smb=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division SMB q1
+/commercial/sales-performance/q2?smb=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division SMB q2
+/commercial/sales-performance/q3?smb=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division SMB q3
+/commercial/sales-performance/q4?smb=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division SMB q4
+
+#Using Region Commercial + Metric + SMB + Unit Head
+/commercial/sales-performance/ytd?smb=true&unit_head=true = Mengecek Sales Performance Unit Head region commercial division SMB ytd
+/commercial/sales-performance/q1?smb=true&unit_head=true = Mengecek Sales Performance Unit Head region commercial division SMB q1
+/commercial/sales-performance/q2?smb=true&unit_head=true = Mengecek Sales Performance Unit Head region commercial division SMB q2
+/commercial/sales-performance/q3?smb=true&unit_head=true = Mengecek Sales Performance Unit Head region commercial division SMB q3
+/commercial/sales-performance/q4?smb=true&unit_head=true = Mengecek Sales Performance Unit Head region commercial division SMB q4
+
+#Using Region Commercial + Metric + Enterprise
+/commercial/sales-performance/ytd&enterprise=true = Mengecek Sales Performance region commercial division enterprise ytd
+/commercial/sales-performance/q1&enterprise=true = Mengecek Sales Performance region commercial division enterprise q1
+/commercial/sales-performance/q2&enterprise=true = Mengecek Sales Performance region commercial division enterprise q2
+/commercial/sales-performance/q3&enterprise=true = Mengecek Sales Performance region commercial division enterprise q3
+/commercial/sales-performance/q4&enterprise=true = Mengecek Sales Performance region commercial division enterprise q4
+
+#Using Metric + Enterprise + Head Sales
+/commercial/sales-performance/ytd&enterprise=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division enterprise ytd
+/commercial/sales-performance/q1&enterprise=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division enterprise q1
+/commercial/sales-performance/q2&enterprise=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division enterprise q2
+/commercial/sales-performance/q3&enterprise=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division enterprise q3
+/commercial/sales-performance/q4&enterprise=true&headsales=true = Mengecek Sales Performance Head Sales region commercial division enterprise q4
+
+#Using region Regional + Metric
+/regional/sales-performance/ytd = Mengecek Sales Performance region Regional ytd
+/regional/sales-performance/q1 = Mengecek Sales Performance region Regional q1
+/regional/sales-performance/q2 = Mengecek Sales Performance region Regional q2
+/regional/sales-performance/q3 = Mengecek Sales Performance region Regional q3
+/regional/sales-performance/q4 = Mengecek Sales Performance region Regional q4
+
+#Using region Regional + Metric + Head Sales
+/regional/sales-performance/ytd&headsales=true = Mengecek Sales Performance Head Sales region Regional ytd
+/regional/sales-performance/q1&headsales=true = Mengecek Sales Performance Head Sales region Regional q1
+/regional/sales-performance/q2&headsales=true = Mengecek Sales Performance Head Sales region Regional q2
+/regional/sales-performance/q3&headsales=true = Mengecek Sales Performance Head Sales region Regional q3
+/regional/sales-performance/q4&headsales=true = Mengecek Sales Performance Head Sales region Regional q4
+
+# ===========================================================
+
+# ===========================================================
+# 3.TOP Ranking
+# ===========================================================
+#Top Ranking region Commercial + Metric
+/commercial/ranking/top = Mengecek Top Ranking Achievement ytd region commercial
+/commercial/ranking/top/q1 = Mengecek Top Ranking Achievement q1 region commercial
+/commercial/ranking/top/q2 = Mengecek Top Ranking Achievement q2 region commercial
+/commercial/ranking/top/q3 = Mengecek Top Ranking Achievement q3 region commercial
+/commercial/ranking/top/q4 = Mengecek Top Ranking Achievement q4 region commercial
+
+#Top Ranking region Commercial + Metric + SMB
+/commercial/ranking/top/ytd?smb=true = Mengecek Top Ranking Achievement ytd region commercial division SMB
+/commercial/ranking/top/q1?smb=true = Mengecek Top Ranking Achievement q1 region commercial division SMB
+/commercial/ranking/top/q2?smb=true = Mengecek Top Ranking Achievement q2 region commercial division SMB
+/commercial/ranking/top/q3?smb=true = Mengecek Top Ranking Achievement q3 region commercial division SMB
+/commercial/ranking/top/q4?smb=true = Mengecek Top Ranking Achievement q4 region commercial division SMB
+
+#Top Ranking region Commercial + Metric + SMB + Head Sales
+/commercial/ranking/top/ytd?smb=true&headsales=true = Mengecek Top Ranking Head Sales Achievement ytd region commercial division SMB
+/commercial/ranking/top/q1?smb=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q1 region commercial division SMB
+/commercial/ranking/top/q2?smb=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q2 region commercial division SMB
+/commercial/ranking/top/q3?smb=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q3 region commercial division SMB
+/commercial/ranking/top/q4?smb=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q4 region commercial division SMB
+
+#Top Ranking region Commercial + Metric + SMB + Unit Head
+/commercial/ranking/top/ytd?smb=true&unit_head=true = Mengecek Top Ranking Unit Head Achievement ytd region commercial division SMB
+/commercial/ranking/top/q1?smb=true&unit_head=true = Mengecek Top Ranking Unit Head Achievement q1 region commercial division SMB
+/commercial/ranking/top/q2?smb=true&unit_head=true = Mengecek Top Ranking Unit Head Achievement q2 region commercial division SMB
+/commercial/ranking/top/q3?smb=true&unit_head=true = Mengecek Top Ranking Unit Head Achievement q3 region commercial division SMB
+/commercial/ranking/top/q4?smb=true&unit_head=true = Mengecek Top Ranking Unit Head Achievement q4 region commercial division SMB
+
+#Top Ranking region Commercial + Metric + Enterprise
+/commercial/ranking/top/ytd?enterprise=true = Mengecek Top Ranking Achievement ytd region commercial division enterprise
+/commercial/ranking/top/q1?enterprise=true = Mengecek Top Ranking Achievement q1 region commercial division enterprise
+/commercial/ranking/top/q2?enterprise=true = Mengecek Top Ranking Achievement q2 region commercial division enterprise
+/commercial/ranking/top/q3?enterprise=true = Mengecek Top Ranking Achievement q3 region commercial division enterprise
+/commercial/ranking/top/q4?enterprise=true = Mengecek Top Ranking Achievement q4 region commercial division enterprise
+
+#Top Ranking region Commercial + Metric + Enterprise + Head Sales
+/commercial/ranking/top/ytd?enterprise=true&headsales=true = Mengecek Top Ranking Head Sales Achievement ytd region commercial division enterprise
+/commercial/ranking/top/q1?enterprise=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q1 region commercial division enterprise
+/commercial/ranking/top/q2?enterprise=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q2 region commercial division enterprise
+/commercial/ranking/top/q3?enterprise=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q3 region commercial division enterprise
+/commercial/ranking/top/q4?enterprise=true&headsales=true = Mengecek Top Ranking Head Sales Achievement q4 region commercial division enterprise
+
+#Top Ranking region Regional + Metric
+/regional/ranking/top/ytd = Mengecek Top Ranking Achievement ytd region Regional
+/regional/ranking/top/q1 = Mengecek Top Ranking Achievement q1 region Regional
+/regional/ranking/top/q2 = Mengecek Top Ranking Achievement q2 region Regional
+/regional/ranking/top/q3 = Mengecek Top Ranking Achievement q3 region Regional
+/regional/ranking/top/q4 = Mengecek Top Ranking Achievement q4 region Regional
+
+#Top Ranking region Regional + Metric + Head Sales
+/regional/ranking/top/ytd?&headsales=true = Mengecek Top Ranking Head Sales Achievement ytd region Regional
+/regional/ranking/top/q1?&headsales=true = Mengecek Top Ranking Head Sales Achievement q1 region region Regional
+/regional/ranking/top/q2?&headsales=true = Mengecek Top Ranking Head Sales Achievement q2 region region Regional
+/regional/ranking/top/q3?&headsales=true = Mengecek Top Ranking Head Sales Achievement q3 region region Regional
+/regional/ranking/top/q4?headsales=true = Mengecek Top Ranking Head Sales Achievement q4 region region Regional
+
+# ====================================================================
+
+# ====================================================================
+# 4.BOTTOM Ranking
+# ====================================================================
+#Bottom Ranking region Commercial + Metric
+/commercial/ranking/bottom/ = Mengecek Bottom Ranking Achievement ytd region commercial
+/commercial/ranking/bottom/q1 = Mengecek Bottom Ranking Achievement q1 region commercial
+/commercial/ranking/bottom/q2 = Mengecek Bottom Ranking Achievement q2 region commercial
+/commercial/ranking/bottom/q3 = Mengecek Bottom Ranking Achievement q3 region commercial
+/commercial/ranking/bottom/q4 = Mengecek Bottom Ranking Achievement q4 region commercial
+
+#Bottom Ranking region Commercial + Metric + SMB
+/commercial/ranking/bottom/ytd?smb=true = Mengecek Bottom Ranking Achievement ytd region commercial division SMB
+/commercial/ranking/bottom/q1?smb=true = Mengecek Bottom Ranking Achievement q1 region commercial division SMB
+/commercial/ranking/bottom/q2?smb=true = Mengecek Bottom Ranking Achievement q2 region commercial division SMB
+/commercial/ranking/bottom/q3?smb=true = Mengecek Bottom Ranking Achievement q3 region commercial division SMB
+/commercial/ranking/bottom/q4?smb=true = Mengecek Bottom Ranking Achievement q4 region commercial  division SMB
+
+#Bottom Ranking region Commercial + Metric + SMB + Head Sales
+/commercial/ranking/bottom/ytd?smb=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement ytd region commercial division SMB
+/commercial/ranking/bottom/q1?smb=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q1 region commercial division SMB
+/commercial/ranking/bottom/q2?smb=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q2 region commercial division SMB
+/commercial/ranking/bottom/q3?smb=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q3 region commercial division SMB
+/commercial/ranking/bottom/q4?smb=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q4 region commercial  division SMB
+
+#Bottom Ranking region Commercial + Metric + SMB + Unit Head
+/commercial/ranking/bottom/ytd?smb=true&unit_head=true = Mengecek Bottom Ranking Unit Head Achievement ytd region commercial division SMB
+/commercial/ranking/bottom/q1?smb=true&unit_head=true = Mengecek Bottom Ranking Unit Head Achievement q1 region commercial division SMB
+/commercial/ranking/bottom/q2?smb=true&unit_head=true = Mengecek Bottom Ranking Unit Head Achievement q2 region commercial division SMB
+/commercial/ranking/bottom/q3?smb=true&unit_head=true = Mengecek Bottom Ranking Unit Head Achievement q3 region commercial division SMB
+/commercial/ranking/bottom/q4?smb=true&unit_head=true = Mengecek Bottom Ranking Unit Head Achievement q4 region commercial  division SMB
+
+#Bottom Ranking region Commercial + Metric + Enterprise
+/commercial/ranking/bottom/ytd?enterprise=true = Mengecek Bottom Ranking Achievement ytd region commercial division enterprise
+/commercial/ranking/bottom/q1?enterprise=true = Mengecek Bottom Ranking Achievement q1 region commercial division enterprise
+/commercial/ranking/bottom/q2?enterprise=true = Mengecek Bottom Ranking Achievement q2 region commercial division enterprise
+/commercial/ranking/bottom/q3?enterprise=true = Mengecek Bottom Ranking Achievement q3 region commercial division enterprise
+/commercial/ranking/bottom/q4?enterprise=true = Mengecek Bottom Ranking Achievement q4 region commercial  division enterprise
+
+#Bottom Ranking region Commercial + Metric + Enterprise + Head Sales
+/commercial/ranking/bottom/ytd?enterprise=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement ytd region commercial division enterprise
+/commercial/ranking/bottom/q1?enterprise=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q1 region commercial division enterprise
+/commercial/ranking/bottom/q2?enterprise=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q2 region commercial division enterprise
+/commercial/ranking/bottom/q3?enterprise=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q3 region commercial division enterprise
+/commercial/ranking/bottom/q4?enterprise=true&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q4 region commercial  division enterprise
+
+#Bottom Ranking region Regional + Metric
+/regional/ranking/bottom/ytd = Mengecek Bottom Ranking Achievement ytd region Regional 
+/regional/ranking/bottom/q1 = Mengecek Bottom Ranking Achievement q1 region Regional
+/regional/ranking/bottom/q2 = Mengecek Bottom Ranking Achievement q2 region Regional
+/regional/ranking/bottom/q3 = Mengecek Bottom Ranking Achievement q3 region Regional
+/regional/ranking/bottom/q4 = Mengecek Bottom Ranking Achievement q4 region Regional
+
+#Bottom Ranking region Regional + Metric + Head Sales
+/regional/ranking/bottom/ytd?&headsales=true = Mengecek Bottom Ranking Head Sales Achievement ytd region Regional
+/regional/ranking/bottom/q1?&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q1 region Regional
+/regional/ranking/bottom/q2?&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q2 region Regional
+/regional/ranking/bottom/q3?&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q3 region Regional
+/regional/ranking/bottom/q4?&headsales=true = Mengecek Bottom Ranking Head Sales Achievement q4 region Regional
+
+===============================================================================
+
+# ============================================================================
+# 5. Summary Dashboard
+# ============================================================================
+#Summary region Commercial + Metric
+/commercial/summary/ytd = menampilkan Summary region commercial ytd
+/commercial/summary/q1 = menampilkan Summary region commercial q1
+/commercial/summary/q2 = menampilkan Summary region commercial q2
+/commercial/summary/q3 = menampilkan Summary region commercial q3
+/commercial/summary/q4 = menampilkan Summary region commercial q4
+
+#Summary region commercial + Metric + SMB
+/commercial/summary/ytd?smb=true = menampilkan Summary region commercial division SMB ytd
+/commercial/summary/q1?smb=true = menampilkan Summary region commercial division SMB q1
+/commercial/summary/q2?smb=true = menampilkan Summary region commercial division SMB q2
+/commercial/summary/q3?smb=true = menampilkan Summary region commercial division SMB q3
+/commercial/summary/q4?smb=true = menampilkan Summary region commercial division SMB q4
+
+#Summary region commercial + Metric + SMB + Head Sales
+/commercial/summary/ytd?smb=true&headsales=true = menampilkan Summary region commercial division SMB Head Sales ytd
+/commercial/summary/q1?smb=true&headsales=true = menampilkan Summary region commercial division SMB Head Sales q1
+/commercial/summary/q2?smb=true&headsales=true = menampilkan Summary region commercial division SMB Head Sales q2
+/commercial/summary/q3?smb=true&headsales=true = menampilkan Summary region commercial division SMB Head Sales q3
+/commercial/summary/q4?smb=true&headsales=true = menampilkan Summary region commercial division SMB Head Sales q4
+
+#Summary region commercial + Metric + SMB + Unit Head
+/commercial/summary/ytd?smb=true&unit_head=true = menampilkan Summary region commercial division SMB Unit Head ytd
+/commercial/summary/q1?smb=true&unit_head=true = menampilkan Summary region commercial division SMB Unit Head q1
+/commercial/summary/q2?smb=true&unit_head=true = menampilkan Summary region commercial division SMB Unit Head q2
+/commercial/summary/q3?smb=true&unit_head=true = menampilkan Summary region commercial division SMB Unit Head q3
+/commercial/summary/q4?smb=true&unit_head=true = menampilkan Summary region commercial division SMB Unit Head q4
+
+#Summary region commercial + Metric + Enterprise
+/commercial/summary/ytd?enterprise=true = menampilkan Summary region commercial division enterprise ytd
+/commercial/summary/q1?enterprise=true = menampilkan Summary region commercial division enterprise q1
+/commercial/summary/q2?enterprise=true = menampilkan Summary region commercial division enterprise q2
+/commercial/summary/q3?enterprise=true = menampilkan Summary region commercial division enterprise q3
+/commercial/summary/q4?enterprise=true = menampilkan Summary region commercial division enterprise q4
+
+#Summary region commercial + Metric + Enterprise + Head Sales
+/commercial/summary/ytd?enterprise=true&headsales=true = menampilkan Summary region commercial Head Sales division enterprise ytd
+/commercial/summary/q1?enterprise=true&headsales=true = menampilkan Summary region commercial Head Sales division enterprise q1
+/commercial/summary/q2?enterprise=true&headsales=true = menampilkan Summary region commercial Head Sales division enterprise q2
+/commercial/summary/q3?enterprise=true&headsales=true = menampilkan Summary region commercial Head Sales division enterprise q3
+/commercial/summary/q4?enterprise=true&headsales=true = menampilkan Summary region commercial Head Sales division enterprise q4
+
+#Summary region Regional + Metric
+/regional/summary/ytd = menampilkan Summary region Regional ytd
+/regional/summary/q1e = menampilkan Summary region Regional q1
+/regional/summary/q2 = menampilkan Summary region Regional q2
+/regional/summary/q3 = menampilkan Summary region Regional q3
+/regional/summary/q4 = menampilkan Summary region Regional q4
+
+#Summary region Regional + Metric + Head Sales
+/regional/summary/ytd?headsales=true = menampilkan Summary region Regional Head Sales ytd
+/regional/summary/q1?headsales=true = menampilkan Summary region Regional Head Sales q1
+/regional/summary/q2?headsales=true = menampilkan Summary region Regional Head Sales q2
+/regional/summary/q3?headsales=true = menampilkan Summary region Regional Head Sales q3
+/regional/summary/q4?headsales=true = menampilkan Summary region Regional Head Sales q4
+
+# ===================================================
+# 6. COMMERCIAL SALES
+# ===================================================
+/commercial/sales = menampilkan value column all sales region commercial
+/commercial/sales?headsales=true = menampilkan value column Head Sales region commercial
+/commercial/sales?unit_head=true = menampilkan value column Unit Head region commercial
+/commercial/sales?smb=true = menampilkan value column region commercial division SMB
+/commercial/sales?enterprise=true = menampilkan value column region commercial division Enterprise
+/regional/sales = menampilkan value column all sales region Regional
+/regional/sales?headsales=true = menampilkan value column Head Sales region Regional
+==============================================================
+
+# ============================================================
+# 7. REGIONAL SALES
+# ===========================================================
+/regional/sales = menampilkan value column all sales region regional
+/regional/sales?headsales=true = menampilkan value column Head Sales region regional
+
+# =======================================================
+# 8. Search Sales Name
+# =======================================================
+/sales/search/<keyword> = Mencari data achievement sales berdasarkan nama sales
+
+# ======================================================
+# 9. Search Teritory Name
+# ======================================================
+/sales/territory/<keyword> = Mencari data achievement sales berdasarkan nama Teritory
+
+# ======================================================
+# 10. Search Sales By Status
+# ======================================================
+/sales/status/</keyword> = Mencari data achievement sales berdasarkan status
+
+# =====================================================
+# 11. Search Sales Achievement Based on ytd
+# =====================================================
+/sales/ytd = menampilkan data YTD sales berdasarkan region Commercial
+
+# =====================================================
+# 12. Minimum Achievement
+# =====================================================
+/minimum-achievement/sales
+
